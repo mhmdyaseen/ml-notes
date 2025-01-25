@@ -26,7 +26,7 @@ Recurrent Neural Networks (RNNs) were the first serious attempt to solve this pr
 #### A Mathematical Glimpse
 For the curious minds, here's a peek into how RNNs work mathematically:
 
-\[ h_t = \sigma(W_{hh} h_{t-1} + W_{xh} x_t + b_h) \]
+$[ h_t = \sigma(W_{hh} h_{t-1} + W_{xh} x_t + b_h) \]$
 
 This formula might look complex, but it essentially represents how a neural network remembers and processes information from previous steps.
 
