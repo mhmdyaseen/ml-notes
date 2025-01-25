@@ -46,8 +46,8 @@ LSTMs were like intelligent gatekeepers. They could:
 #### The LSTM Machine
 Mathematically, LSTMs introduced complex gates that could control information flow:
 
-$[ f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f) \$
-$[ i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i) \$
+$ f_t = \sigma(W_f \cdot [h_{t-1}, x_t] + b_f) \$
+$ i_t = \sigma(W_i \cdot [h_{t-1}, x_t] + b_i) \$
 
 These formulas represent how the network decides what to remember and what to forget.
 
@@ -62,7 +62,7 @@ The key insight? Instead of processing information sequentially, why not look at
 Imagine reading a book where you could instantly understand how each word relates to every other word. That's essentially what transformers do.
 
 #### The Mathematical Magic
-$[ \text{Attention}(Q,K,V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V \$
+$ \text{Attention}(Q,K,V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V \$
 
 This formula might look intimidating, but it represents a powerful way of understanding contextual relationships.
 
